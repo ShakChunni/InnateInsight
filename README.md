@@ -1,4 +1,4 @@
-# Innate Insight - Market Research and Expertise Showcase
+## Innate Insight - Market Research and Expertise Showcase
 
 ### Description
 
@@ -25,14 +25,6 @@ Welcome to the Innate Insight project repository! This project showcases the dig
 
 Feel free to explore the live website by visiting [Innate Insight Website](https://www.innateinsight.org) and delve into the world of market research, expertise, and strategic insights.
 
-### Contributions
-
-Contributions, feedback, and suggestions are more than welcome! If you'd like to get involved, feel free to fork this repository and submit pull requests to help enhance and improve the website.
-
-### License
-
-This project is open-source and is licensed under the [MIT License](LICENSE).
-
 ### Contact
 
-For inquiries about the project or to learn more about Innate Insight, please reach out to us at contact@innateinsight.com
+For inquiries about the project or to learn more about Innate Insight, please reach out to us at <ashfaq601230@gmail.com>
