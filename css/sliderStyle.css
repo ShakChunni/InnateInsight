@@ -83,7 +83,7 @@
 /* Update Swiper pagination styles */
 .swiper-pagination {
   position: relative;
-  margin-bottom: 5px; /* Adjust the margin as needed */
+  margin-top: 15px; /* Adjust the margin as needed */
 }
 
 .swiper-pagination-bullet {
