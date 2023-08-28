@@ -66,10 +66,8 @@
 }
 /* swiper button css */
 .nav-btnX {
-  position: absolute;
   height: 40px;
   width: 40px;
-  border-radius: 80%;
   transform: translateY(30px);
   background-color: #4b208c;
   transition: 0.2s;
