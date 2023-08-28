@@ -384,9 +384,10 @@ a:focus {
 .service_section .service_container .box .detail-box li {
   font-size: 18px;
   text-align: left;
-  font-weight: 200;
+  font-weight: 400;
   position: relative;
   margin-top: 15px;
+  color: #333;
 }
 
 .service_section .service_container .box:hover,

@@ -1,0 +1,130 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.containerX {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f0f6;
+}
+.testimonial {
+  position: relative;
+  max-width: 900px;
+  width: 100%;
+  padding: 50px 0;
+  overflow: hidden;
+}
+.testimonial .imageX {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.testimonial .slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 30px;
+  height: 100%;
+  width: 100%;
+}
+.slide p {
+  text-align: center;
+  padding: 0 160px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #333;
+}
+.slide .quote-icon {
+  font-size: 30px;
+  color: #4b208c;
+}
+.slide .details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.details .name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2e0e5f;
+}
+.details .job {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 10px;
+}
+/* swiper button css */
+.nav-btnX {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-radius: 80%;
+  transform: translateY(30px);
+  background-color: #4b208c;
+  transition: 0.2s;
+}
+.nav-btnX:hover {
+  background-color: #2e0e5f;
+}
+.nav-btnX::after,
+.nav-btnX::before {
+  font-size: 20px;
+  color: #f3f0f6;
+}
+/* Update Swiper pagination styles */
+.swiper-pagination {
+  position: relative;
+  margin-bottom: 5px; /* Adjust the margin as needed */
+}
+
+.swiper-pagination-bullet {
+  background-color: #f3f0f6; /* Change the background color */
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  transition: background-color 0.2s;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #4b208c; /* Change the active color */
+}
+@media screen and (max-width: 768px) {
+  .slide p {
+    padding: 0 20px;
+  }
+  .nav-btnX {
+    display: none;
+  }
+}
+
+/* Update "Explore Research & Publications" link */
+.details a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4b208c;
+  color: #ffffff;
+  border: 2px solid #4b208c;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 10px; /* Add margin for spacing */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.details a:hover {
+  background-color: transparent;
+  color: #4b208c;
+  border-color: #4b208c;
+}
